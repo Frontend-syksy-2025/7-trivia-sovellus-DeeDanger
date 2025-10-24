@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./app.css";
 export default function TriviaApp() {
   const [question, setQuestion] = useState<string | null>(null);
